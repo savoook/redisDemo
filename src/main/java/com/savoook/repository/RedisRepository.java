@@ -1,9 +1,9 @@
-package com.michaelcgood.repository;
+package com.savoook.repository;
 
 import java.util.Map;
 import java.util.Set;
 
-import com.michaelcgood.model.Movie;
+import com.savoook.model.Movie;
 
 public interface RedisRepository {
 

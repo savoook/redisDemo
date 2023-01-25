@@ -1,4 +1,4 @@
-package com.michaelcgood.config;
+package com.savoook.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -10,12 +10,12 @@ import org.springframework.data.redis.listener.RedisMessageListenerContainer;
 import org.springframework.data.redis.listener.adapter.MessageListenerAdapter;
 import org.springframework.data.redis.serializer.GenericToStringSerializer;
 
-import com.michaelcgood.queue.MessagePublisher;
-import com.michaelcgood.queue.MessagePublisherImpl;
-import com.michaelcgood.queue.MessageSubscriber;
+import com.savoook.queue.MessagePublisher;
+import com.savoook.queue.MessagePublisherImpl;
+import com.savoook.queue.MessageSubscriber;
 
 @Configuration
-@ComponentScan("com.michaelcgood")
+@ComponentScan("com.savoook")
 public class RedisConfig {
 
     @Bean

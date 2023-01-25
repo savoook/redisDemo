@@ -1,4 +1,4 @@
-package com.michaelcgood.queue;
+package com.savoook.queue;
 
 public interface MessagePublisher {
 

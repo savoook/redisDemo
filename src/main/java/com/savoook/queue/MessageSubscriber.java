@@ -1,4 +1,4 @@
-package com.michaelcgood.queue;
+package com.savoook.queue;
 
 import java.util.ArrayList;
 import java.util.List;
